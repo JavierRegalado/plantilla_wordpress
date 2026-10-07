@@ -24,7 +24,7 @@ function tema_plaiaundi_obtener_ejercicio_seleccionado() {
 
     $ejercicio = filter_var(wp_unslash($_GET['ejercicio']), FILTER_VALIDATE_INT);
 
-    if ($ejercicio === false || $ejercicio < 1 || $ejercicio > 14) {
+    if ($ejercicio === false || $ejercicio < 1 || $ejercicio > 16) {
         return null;
     }
 
