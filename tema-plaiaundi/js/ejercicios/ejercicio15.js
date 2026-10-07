@@ -5,11 +5,7 @@ Escribe una función llamada esPar que reciba un número y devuelva true si es p
 let num = prompt("Introduce un número:");
 
 const esPar = (numero) => {
-    if (numero % 2 === 0) {
-        return true;
-    } else {
-        return false;
-    }
+    return numero % 2 === 0;
 };
 
 console.log(esPar(num));
